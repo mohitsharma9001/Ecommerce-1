@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+      width: 25%;
+      height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 3% auto;
+  padding: 2%;
+  }
+  input,select{
+      display:block ;
+      margin: 14px 0;
+      font-size: 18px;
+      /* padding-right: 100px; */
+      padding: 2%;
+      /* padding: 7px 100px 7px 100px; */
+  }
+  #submit{
+    width: 70%;
+    margin :auto;
+    background-color: black;
+    color: wheat;
+    border-radius: 17px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Product Name</label>
+        <input type="text" id="product" placeholder="Enter Your product">
+        <label for="">Category</label>
+        <input type="text" id="catogry" placeholder="Enter Category">
+        <label for="">Image url</label>
+        <input type="url" id="url" placeholder="Image Url">
+        <label for="">Price</label>
+        <input type="number" id="price" placeholder="Enter price">
+        <select style="padding: 7px 78px 7px 78px;" name="" id="select">
+            <option value="">None</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <label for="">Sold</label>
+        <input type="checkbox" id="check">
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+<script src="ecommerce.js">
+   
+    
+</script>
+</html>
